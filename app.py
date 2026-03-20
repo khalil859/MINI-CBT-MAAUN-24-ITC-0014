@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from models import Question
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='assigment4/templates')
 
 # Questions (your data)
 questions = [
