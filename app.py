@@ -1,4 +1,3 @@
-2.app.py 
 from flask import Flask, render_template, request
 from models import Question
 from datetime import datetime
